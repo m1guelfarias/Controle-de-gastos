@@ -1,0 +1,29 @@
+body{
+    background: rgb(88, 213, 88);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+}
+
+input,button{
+    margin-bottom: 10px;
+    width: -webkit-fill-available;
+}
+
+button{
+    background: white;
+    color:black;
+    border: none;
+}
+button:active{
+    opacity: 0.8;
+}
+.obrigation{
+    color: red;
+}
+
+.logout{
+    margin-left: 300px;
+    justify-content: left;
+}

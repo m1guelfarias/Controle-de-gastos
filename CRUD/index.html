@@ -1,0 +1,38 @@
+<!doctype html>
+
+<html>
+
+<head>
+    <title>CRUD</title>
+</head>
+
+<body>
+    <form>
+        <div>
+            <div><label>Email <a class="obrigatório">*</a></label></div>
+            <input type="email" name="email" id="email" placeholder="seu@email.com" onchange="onChangeEmail()"/>
+            <div class="error" id="email-required-error">Email é obrigatório</div>
+            
+            
+        <div>
+            <div><label>Senha <a class="obrigatório">*</a></label></div>
+            <input type="password" name="password" id="password" placeholder="Senha" onchange="onChangePassword()"/>
+            <div class="error" id="password-required-error">Senha é obrigatória</div>
+        </div>
+        <div>
+            <button type="button" class="forget" id="recover-password-button" disabled="true">Recuperar senha</button>
+        </div>
+        <div>
+            <button type="button" class="home" id="login-button" disabled="true" onclick="Login()">Entrar</button>
+        </div>
+        <div>
+            <button type="button" class="cadastrar" onclick="Registrer()">Registrar</button>
+        </div>
+    </form>
+</body>
+
+<link rel="stylesheet" href="style.css">
+
+<script src="scripts.js"></script>
+
+</html>
